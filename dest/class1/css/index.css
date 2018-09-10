@@ -1,0 +1,195 @@
+body {
+  background-color: #ebecf0;
+}
+
+.ico-calc {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url('../img/ico-calc.png') center no-repeat;
+  background-size: contain;
+}
+.ico-arrow.right {
+  display: inline-block;
+  width: 0.8rem;
+  height: 1.3rem;
+  background: url('../img/ico-arrow-rt.png') center no-repeat;
+  background-size: contain;
+}
+.ico-cust-serv {
+  display: inline-block;
+  width: 4.1rem;
+  height: 4.1rem;
+  background: url('../img/ico-cust-serv.png') center no-repeat;
+  background-size: contain;
+}
+
+/*.p-class1 {
+  padding-bottom: 4.6rem;
+}*/
+.p-class1 .mod-header {
+  background-image: -webkit-linear-gradient(300deg, #37cfd4, #0dbac5);
+  background-image: -o-linear-gradient(300deg, #37cfd4, #0dbac5);
+  background-image: linear-gradient(-210deg, #37cfd4, #0dbac5);
+  color: #FFF;
+  position: relative;
+  padding: 5.0rem 0 3.0rem;
+  text-align: center;
+}
+.p-class1 .mod-header .ico-calc {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.p-class1 .mod-header .account-title {
+  font-size: 1.4rem;
+  line-height: 1;
+  opacity: 0.7;
+  margin-bottom: 1.1rem;
+}
+.p-class1 .mod-header .account-amount {
+  /*padding: 0.4rem 0;*/
+  font-size: 4.0rem;
+  margin-bottom: 1.6rem;
+}
+.p-class1 .mod-header .account-more a {
+  font-size: 1.4rem;
+  color: currentColor;
+  display: inline-block;
+  vertical-align: middle;
+}
+.p-class1 .mod-header .account-more .ico-arrow.right {
+  vertical-align: middle;
+  margin-left: 0.7rem;
+}
+
+.p-class1 .mod-header .record {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4.0rem;
+}
+.p-class1 .mod-header .record-profit {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+.p-class1 .mod-header .record-profit:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 3.0rem;
+  width: 2px;
+  background-color: #FFF;
+  opacity: 0.4;
+}
+.p-class1 .mod-header .record-profit:last-child:after {
+  display: none;
+}
+.p-class1 .mod-header .record-title {
+  font-size: 1.4rem;
+  line-height: 1;
+  opacity: 0.7;
+}
+.p-class1 .mod-header .record-value {
+  /*padding: 0.16rem 0;*/
+  font-size: 1.6rem;
+  padding-top: 0.84rem;
+}
+
+.p-class1 .promo {
+  font-size: 1.4rem;
+  color: #FFF;
+  padding: 1.34rem 3.0rem 1.34rem 2.1rem;
+  background-color: #37cfd4;
+  position: relative;
+}
+.p-class1 .promo .ico-arrow.right {
+  position: absolute;
+  right: 2.0rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.p-class1 .updates {
+  padding: 0 2.0rem;
+}
+
+.p-class1 .mod-message {
+  margin-top: 2.0rem;
+  background-color: #FFF;
+  padding: 2.0rem;
+  border-radius: 0 1.2rem 1.2rem;
+  -webkit-box-shadow: 3px 7px 12px 0px rgba(219, 219, 219, 0.3);
+          box-shadow: 3px 7px 12px 0px rgba(219, 219, 219, 0.3);
+}
+.p-class1 .mod-message .dialog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.p-class1 .mod-message .ico-cust-serv {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 4.1rem;
+          flex: 0 0 4.1rem;
+  margin-right: 2.0rem;
+}
+.p-class1 .mod-message .dialog-text {
+  font-size: 1.4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.p-class1 .mod-message .news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 0 0.5rem 6rem;
+}
+.p-class1 .mod-message .news-cover {
+  width: 4.4rem;
+  height: 3.6rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 4.4rem;
+          flex: 0 0 4.4rem;
+  margin-right: 0.6rem;
+}
+.p-class1 .mod-message .news-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.p-class1 .mod-message .news-title {
+  font-size: 1.4rem;
+  color: #598ac1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.p-class1 .mod-footer {
+  text-align: center;
+  padding: 1.34rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.p-class1 .mod-footer a {
+  color: #0ea1bc;
+  font-size: 1.6rem;
+}
