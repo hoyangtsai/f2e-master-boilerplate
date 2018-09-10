@@ -1,0 +1,32 @@
+{
+  "name": "f2e-master-boilerplate",
+  "version": "1.0.0",
+  "description": "A front-end master tutorial boilerplate",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-postcss": "^8.0.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "clean": "rm -rf dest/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.code.oa.com/keithytsai/f2e-master-boilerplate.git"
+  },
+  "keywords": [
+    "front-end",
+    "boilerplate",
+    "tutorial"
+  ],
+  "author": "keithytsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://git.code.oa.com/keithytsai/f2e-master-boilerplate/issues"
+  },
+  "homepage": "http://git.code.oa.com/keithytsai/f2e-master-boilerplate#readme"
+}
