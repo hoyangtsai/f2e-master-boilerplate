@@ -4,22 +4,22 @@ body {
 
 .ico-calc {
   display: inline-block;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: .48rem;
+  height: .48rem;
   background: url('../img/ico-calc.png') center no-repeat;
   background-size: contain;
 }
 .ico-arrow.right {
   display: inline-block;
-  width: 0.8rem;
-  height: 1.3rem;
+  width: .16rem;
+  height: .26rem;
   background: url('../img/ico-arrow-rt.png') center no-repeat;
   background-size: contain;
 }
 .ico-cust-serv {
   display: inline-block;
-  width: 4.1rem;
-  height: 4.1rem;
+  width: .82rem;
+  height: .82rem;
   background: url('../img/ico-cust-serv.png') center no-repeat;
   background-size: contain;
 }
@@ -31,40 +31,40 @@ body {
   background-image: linear-gradient(-210deg, #37cfd4, #0dbac5);
   color: #FFF;
   position: relative;
-  padding: 5.0rem 0 3.0rem;
+  padding: 1rem 0 .6rem;
   text-align: center;
 }
 .p-class1 .mod-header .ico-calc {
   position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: .3rem;
+  right: .3rem;
 }
 
 .p-class1 .mod-header .account-title {
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 1;
   opacity: 0.7;
-  margin-bottom: 1.1rem;
+  margin-bottom: .22rem;
 }
 .p-class1 .mod-header .account-amount {
   /*padding: 0.4rem 0;*/
-  font-size: 4.0rem;
-  margin-bottom: 1.6rem;
+  font-size: 40px;
+  margin-bottom: .32rem;
 }
 .p-class1 .mod-header .account-more a {
-  font-size: 1.4rem;
+  font-size: 14px;
   color: currentColor;
   display: inline-block;
   vertical-align: middle;
 }
 .p-class1 .mod-header .account-more .ico-arrow.right {
   vertical-align: middle;
-  margin-left: 0.7rem;
+  margin-left: .14rem;
 }
 
 .p-class1 .mod-header .record {
   display: flex;
-  padding-top: 4.0rem;
+  padding-top: .8rem;
 }
 .p-class1 .mod-header .record-profit {
   flex: 1;
@@ -76,7 +76,7 @@ body {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  height: 3.0rem;
+  height: .6rem;
   width: 2px;
   background-color: #FFF;
   opacity: 0.4;
@@ -85,39 +85,39 @@ body {
   display: none;
 }
 .p-class1 .mod-header .record-title {
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 1;
   opacity: 0.7;
 }
 .p-class1 .mod-header .record-value {
   /*padding: 0.16rem 0;*/
-  font-size: 1.6rem;
-  padding-top: 0.84rem;
+  font-size: 16px;
+  padding-top: .168rem;
 }
 
 .p-class1 .promo {
-  font-size: 1.4rem;
+  font-size: 14px;
   color: #FFF;
-  padding: 1.34rem 3.0rem 1.34rem 2.1rem;
+  padding: .268rem .6rem .268rem .42rem;
   background-color: #37cfd4;
   position: relative;
 }
 .p-class1 .promo .ico-arrow.right {
   position: absolute;
-  right: 2.0rem;
+  right: .4rem;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .p-class1 .updates {
-  padding: 0 2.0rem;
+  padding: 0 .4rem;
 }
 
 .p-class1 .mod-message {
-  margin-top: 2.0rem;
+  margin-top: .4rem;
   background-color: #FFF;
-  padding: 2.0rem;
-  border-radius: 0 1.2rem 1.2rem;
+  padding: .4rem;
+  border-radius: 0 .24rem .24rem;
   box-shadow: 3px 7px 12px 0px rgba(219, 219, 219, 0.3);
 }
 .p-class1 .mod-message .dialog {
@@ -125,24 +125,24 @@ body {
   align-items: center;
 }
 .p-class1 .mod-message .ico-cust-serv {
-  flex: 0 0 4.1rem;
-  margin-right: 2.0rem;
+  flex: 0 0 .82rem;
+  margin-right: .4rem;
 }
 .p-class1 .mod-message .dialog-text {
-  font-size: 1.4rem;
+  font-size: 14px;
   flex: 1;
 }
 
 .p-class1 .mod-message .news {
   display: flex;
   align-items: center;
-  padding: 1.5rem 0 0.5rem 6rem;
+  padding: .3rem 0 .166rem 1.2rem;
 }
 .p-class1 .mod-message .news-cover {
-  width: 4.4rem;
-  height: 3.6rem;
-  flex: 0 0 4.4rem;
-  margin-right: 0.6rem;
+  width: .88rem;
+  height: .72rem;
+  flex: 0 0 .88rem;
+  margin-right: .12rem;
 }
 .p-class1 .mod-message .news-cover img {
   display: block;
@@ -150,19 +150,19 @@ body {
   height: 100%;
 }
 .p-class1 .mod-message .news-title {
-  font-size: 1.4rem;
+  font-size: 14px;
   color: #598ac1;
   flex: 1;
 }
 
 .p-class1 .mod-footer {
   text-align: center;
-  padding: 1.34rem 0;
+  padding: .268rem 0;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 .p-class1 .mod-footer a {
   color: #0ea1bc;
-  font-size: 1.6rem;
+  font-size: 16px;
 }
