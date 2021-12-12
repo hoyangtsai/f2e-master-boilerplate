@@ -15,12 +15,9 @@ const paths = {
 }
 
 gulp.task('css', function () {
-  let options = {
-    browsers: ['last 5 version']
-  };
   return gulp.src(paths.css)
     .pipe(postcss(
-      [autoprefixer(options)]
+      [autoprefixer()]
     ))
     .pipe(gulp.dest('./dest'))
     .pipe(connect.reload());;
